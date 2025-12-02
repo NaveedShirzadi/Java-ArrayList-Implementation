@@ -34,7 +34,7 @@ public class CSLinkedListDriver {
         // Add songs to end
         playlist.add("Starboy");
         playlist.add("Blinding Lights");
-        playlist.add("Die For You");
+        playlist.add("Save Your Tears");
 
         System.out.println("\nInitial playlist:");
         System.out.println(playlist);
@@ -68,8 +68,8 @@ public class CSLinkedListDriver {
 
         // Regular tasks → end
         todo.add("Do CS homework");
-        todo.add("Clean room");
-        todo.add("Reply to emails");
+        todo.add("Clean my room");
+        todo.add("Send emails");
 
         System.out.println("\nInitial to-do list:");
         System.out.println(todo);
@@ -101,7 +101,7 @@ public class CSLinkedListDriver {
         CSLinkedList<String> waitlist = new CSLinkedList<>();
 
         String[] names = {
-                "Ali", "Sara", "Fatima", "Ali", "Omar", "Fatima", "Zain"
+                "Naveed", "Sara", "Michael", "Jake", "Fred", "Keila", "Andrew"
         };
 
         for (String name : names) {
@@ -152,20 +152,20 @@ public class CSLinkedListDriver {
         System.out.println("=== LL5 – Recently Contacted Friends ===");
 
         CSLinkedList<String> friends = new CSLinkedList<>();
-        friends.add("Aisha");
-        friends.add("Layla");
-        friends.add("Yusuf");
-        friends.add("Omar");
+        friends.add("Naveed");
+        friends.add("Sara");
+        friends.add("Matthew");
+        friends.add("Fred");
 
         System.out.println("\nInitial list:");
         System.out.println(friends);
 
-        System.out.println("\nMessaging 'Yusuf' → move to front...");
-        friends.moveToFront("Yusuf");
+        System.out.println("\nMessaging 'Fred' → move to front...");
+        friends.moveToFront("Fred");
         System.out.println(friends);
 
-        System.out.println("\nMessaging 'Aisha' → move to front...");
-        friends.moveToFront("Aisha");
+        System.out.println("\nMessaging 'Sarah' → move to front...");
+        friends.moveToFront("Sarah");
         System.out.println(friends);
 
         System.out.println("\nMessaging 'Zara' (not in list) → no change...");
